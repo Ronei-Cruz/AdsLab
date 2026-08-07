@@ -211,6 +211,26 @@ button {
   font-size: 0.8rem;
 }
 
+.section-intro {
+  padding: 3rem 0;
+  margin: 0 30px;
+}
+
+.intro-content p {
+  padding: 3rem 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: justify;
+  color: var(--muted);
+}
+
+.intro-content h1 {
+  margin: 0.75rem auto 0;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.1;
+  text-align: center;
+}
+
 .comparison-filters {
   display: flex;
   flex-wrap: wrap;
